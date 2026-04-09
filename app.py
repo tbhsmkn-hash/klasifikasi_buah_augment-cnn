@@ -3,7 +3,7 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 
-st.title("Identifikasi Nama Buah")
+st.title("Identifikasi Nama Buah algoritma cnn +augment")
 st.write("Unggah foto buah, dan AI akan menebak namanya!")
 
 # Load model yang sudah dilatih
