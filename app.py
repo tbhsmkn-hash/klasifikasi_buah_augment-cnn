@@ -28,4 +28,4 @@ if uploaded_file is not None:
 
     st.title('HASIL PREDIKSI')
 
-    st.success(f"Hasil Identifikasi: **{result}**")
+    st.success(f": **{result}**")
