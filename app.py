@@ -8,7 +8,7 @@ st.write("Unggah foto buah, dan AI akan menebak namanya!")
 
 # Load model yang sudah dilatih
 #model = tf.keras.models.load_model('model_buah_augmented.keras')
-model = tf.keras.models.load_model('model_buah_augmented.keras')
+model = tf.keras.models.load_model('model_buah_augmented.keras', safe_mode=False)
 labels = ['Apple', 'Banana', 'avocado', 'cherry', 'kiwi', 'mango', 'orange', 'pinenapple', 'strawberries', 'watermelon'] # Sesuaikan dengan dataset Anda
 
 uploaded_file = st.file_uploader("Pilih gambar...", type=["jpg", "jpeg", "png"])
