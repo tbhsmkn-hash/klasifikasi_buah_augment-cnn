@@ -26,4 +26,6 @@ if uploaded_file is not None:
     predictions = model.predict(img_array)
     result = labels[np.argmax(predictions)]
 
+    st.title('HASIL PREDIKSI')
+
     st.success(f"Hasil Identifikasi: **{result}**")
