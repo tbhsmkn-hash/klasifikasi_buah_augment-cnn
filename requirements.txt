@@ -1,6 +1,6 @@
 streamlit
 tensorflow-cpu
+pillow
 numpy
-pandas
+matplotlib
 seaborn
-matplotlib.pyplot
